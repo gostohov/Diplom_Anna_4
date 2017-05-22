@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13438,7 +13438,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <plain>
 <text x="-153.162" y="72.898" size="1.4224" layer="95">Цепь</text>
 <text x="-147.066" y="72.644" size="1.4224" layer="95">№</text>
-<text x="-153.67" y="70.104" size="1.778" layer="95">+5В</text>
+<text x="-153.67" y="70.104" size="1.778" layer="95">+5B</text>
 <text x="-153.416" y="62.484" size="1.778" layer="95">GND</text>
 <text x="-146.558" y="70.358" size="1.4224" layer="95">1</text>
 <text x="-146.558" y="62.738" size="1.4224" layer="95">4</text>
@@ -13551,7 +13551,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <wire x1="-139.7" y1="-15.24" x2="-140.97" y2="-16.51" width="0.1524" layer="95"/>
 <text x="-10.16" y="-58.42" size="1.778" layer="96">STM32F100R6T6B</text>
 <text x="-148.482" y="34.544" size="1.778" layer="95" rot="MR0">GND</text>
-<text x="-148.082" y="37.084" size="1.778" layer="95" rot="MR0">+3.3В</text>
+<text x="-148.082" y="37.084" size="1.778" layer="95" rot="MR0">+3.3B</text>
 <wire x1="-130.81" y1="63.754" x2="-126.746" y2="63.754" width="0.1524" layer="97"/>
 <wire x1="26.67" y1="58.674" x2="30.734" y2="58.674" width="0.1524" layer="97"/>
 <text x="-152.4" y="67.564" size="1.778" layer="95">D+</text>
