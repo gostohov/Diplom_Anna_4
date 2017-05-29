@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2474,23 +2474,23 @@ Your Eurocircuits Team
 <element name="DA1" library="LM2594" package="LM2495" value="LM2594" x="50.11" y="57.68" rot="R270"/>
 <element name="DD1" library="ST Microelctronics_By_element14_Batch_1" package="QFP50P1200X1200X160-64N" value="STM32F100R6T6B" x="35.8907625" y="31.69791875" smashed="yes">
 <attribute name="MPN" value="STM32F100R6T6B" x="35.8907625" y="31.69791875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.8773625" y="38.533115625" size="1.27" layer="21" ratio="10" rot="SR0"/>
+<attribute name="OC_FARNELL" value="1838506" x="35.8907625" y="31.69791875" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="76R0991" x="35.8907625" y="31.69791875" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="QFP-64" x="35.8907625" y="31.69791875" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1838506" x="35.8907625" y="31.69791875" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" x="35.8907625" y="31.69791875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.8773625" y="38.533115625" size="1.27" layer="21" ratio="10" rot="SR0"/>
 </element>
 <element name="L1" library="BOURNS" package="101KL" value="100uH" x="37.97" y="55.8" smashed="yes" rot="R180"/>
 <element name="R1" library="eagle-ltspice" package="R0805" value="1k" x="57.55" y="55.73" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.715" y="54.84" size="0.8128" layer="25"/>
 <attribute name="SPICEMODEL" value="NONE" x="57.55" y="55.73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="57.55" y="55.73" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="59.715" y="54.84" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="59.715" y="55.93" size="0.8128" layer="27"/>
 </element>
 <element name="R3" library="eagle-ltspice" package="R0805" value="10k" x="11.94" y="29.17" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.11" y="26.805" size="0.8128" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="11.94" y="29.17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="11.94" y="29.17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="11.11" y="26.805" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="12.1" y="26.805" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="SW1" library="switch-tact" package="DTSM-6" value="DTSM-6" x="12.15" y="36.66" smashed="yes" rot="R270">
@@ -2511,8 +2511,8 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="63.07" y="10.415" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="X1" library="SparkFun-Connectors" package="USB-MICROB" value="USB-MICROB" x="55.29" y="66.08" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="CONN-09505" x="55.29" y="66.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="61.89" y="66.03" size="0.762" layer="25" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-09505" x="55.29" y="66.08" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C9" library="rcl" package="C0805" value="1uF" x="24.71" y="35.44" smashed="yes">
 <attribute name="NAME" x="21.34" y="35.71" size="0.8128" layer="25"/>
@@ -2524,9 +2524,9 @@ Your Eurocircuits Team
 <attribute name="SPICETYPE" value="diode" x="17.95" y="42.87" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="eagle-ltspice" package="R0805" value="330" x="17.93" y="35.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.04" y="33.665" size="0.8128" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="17.93" y="35.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="17.93" y="35.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.04" y="33.665" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="18.13" y="33.665" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="VD2" library="eagle-ltspice" package="LED_1206" value="" x="47.36" y="49.59">
@@ -2535,27 +2535,27 @@ Your Eurocircuits Team
 <attribute name="SPICETYPE" value="diode" x="47.36" y="55.94" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="eagle-ltspice" package="R0805" value="470" x="41.04" y="49.6" smashed="yes">
+<attribute name="NAME" x="38.835" y="50.49" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEMODEL" value="NONE" x="41.04" y="44.52" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="41.04" y="44.52" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.835" y="50.49" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="38.835" y="49.3" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R5" library="eagle-ltspice" package="R0805" value="10k" x="31.7" y="42.4" smashed="yes">
+<attribute name="NAME" x="33.865" y="42.57" size="0.8128" layer="25"/>
 <attribute name="SPICEMODEL" value="NONE" x="31.7" y="42.4" size="1.27" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="31.7" y="42.4" size="1.27" layer="27" display="off"/>
-<attribute name="NAME" x="33.865" y="42.57" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="33.865" y="41.56" size="0.8128" layer="27"/>
 </element>
 <element name="R6" library="eagle-ltspice" package="R0805" value="10k" x="54.88" y="34.43" smashed="yes">
+<attribute name="NAME" x="57.145" y="34.6" size="0.8128" layer="25"/>
 <attribute name="SPICEMODEL" value="NONE" x="54.88" y="34.43" size="2.54" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="54.88" y="34.43" size="2.54" layer="27" display="off"/>
-<attribute name="NAME" x="57.145" y="34.6" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="57.145" y="33.59" size="0.8128" layer="27"/>
 </element>
 <element name="R7" library="eagle-ltspice" package="R0805" value="10k" x="54.76" y="39.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.925" y="39.68" size="0.8128" layer="25"/>
 <attribute name="SPICEMODEL" value="NONE" x="54.76" y="39.51" size="2.54" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="54.76" y="39.51" size="2.54" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="56.925" y="39.68" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="56.925" y="38.67" size="0.8128" layer="27"/>
 </element>
 </elements>
